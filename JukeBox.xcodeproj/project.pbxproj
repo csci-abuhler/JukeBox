@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C145B011FB4177B009E7581 /* silence.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4C145B001FB41755009E7581 /* silence.mp3 */; };
+		4C145B051FB41986009E7581 /* narwhals.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4C145B041FB41982009E7581 /* narwhals.mp3 */; };
+		4CD263891FD7AA9800097435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C0197CC1FD77963003B7649 /* Assets.xcassets */; };
 		579A4F851FB22E06003776E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579A4F841FB22E06003776E2 /* AppDelegate.swift */; };
 		579A4F871FB22E06003776E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579A4F861FB22E06003776E2 /* ViewController.swift */; };
 		579A4F8A1FB22E06003776E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 579A4F881FB22E06003776E2 /* Main.storyboard */; };
-		579A4F8C1FB22E06003776E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579A4F8B1FB22E06003776E2 /* Assets.xcassets */; };
 		579A4F8F1FB22E06003776E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 579A4F8D1FB22E06003776E2 /* LaunchScreen.storyboard */; };
+		579A4F991FB22FA5003776E2 /* wantyouback.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 579A4F981FB22FA5003776E2 /* wantyouback.mp3 */; };
+		57E6C9EC1FB4C8950047DB02 /* mzm.sjquuebr.aac.p.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57E6C9EB1FB4C8950047DB02 /* mzm.sjquuebr.aac.p.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C0197CC1FD77963003B7649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		4C145B001FB41755009E7581 /* silence.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = silence.mp3; sourceTree = "<group>"; };
+		4C145B041FB41982009E7581 /* narwhals.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = narwhals.mp3; sourceTree = "<group>"; };
 		579A4F811FB22E06003776E2 /* JukeBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JukeBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		579A4F841FB22E06003776E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		579A4F861FB22E06003776E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		579A4F891FB22E06003776E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		579A4F8B1FB22E06003776E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		579A4F8E1FB22E06003776E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		579A4F901FB22E06003776E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		579A4F981FB22FA5003776E2 /* wantyouback.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wantyouback.mp3; sourceTree = "<group>"; };
+		57E6C9EB1FB4C8950047DB02 /* mzm.sjquuebr.aac.p.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mzm.sjquuebr.aac.p.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,10 @@
 			children = (
 				579A4F831FB22E06003776E2 /* JukeBox */,
 				579A4F821FB22E06003776E2 /* Products */,
+				579A4F981FB22FA5003776E2 /* wantyouback.mp3 */,
+				4C145B001FB41755009E7581 /* silence.mp3 */,
+				4C145B041FB41982009E7581 /* narwhals.mp3 */,
+				57E6C9EB1FB4C8950047DB02 /* mzm.sjquuebr.aac.p.mp3 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,9 +67,9 @@
 			isa = PBXGroup;
 			children = (
 				579A4F841FB22E06003776E2 /* AppDelegate.swift */,
+				4C0197CC1FD77963003B7649 /* Assets.xcassets */,
 				579A4F861FB22E06003776E2 /* ViewController.swift */,
 				579A4F881FB22E06003776E2 /* Main.storyboard */,
-				579A4F8B1FB22E06003776E2 /* Assets.xcassets */,
 				579A4F8D1FB22E06003776E2 /* LaunchScreen.storyboard */,
 				579A4F901FB22E06003776E2 /* Info.plist */,
 			);
@@ -100,7 +112,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 579A4F7C1FB22E06003776E2 /* Build configuration list for PBXProject "JukeBox" */;
+			buildConfigurationList = 579A4F7C1FB22E06003776E2 /* Build configuration list for PBXProject "Jukebox" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -123,8 +135,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C145B011FB4177B009E7581 /* silence.mp3 in Resources */,
+				57E6C9EC1FB4C8950047DB02 /* mzm.sjquuebr.aac.p.mp3 in Resources */,
 				579A4F8F1FB22E06003776E2 /* LaunchScreen.storyboard in Resources */,
-				579A4F8C1FB22E06003776E2 /* Assets.xcassets in Resources */,
+				579A4F991FB22FA5003776E2 /* wantyouback.mp3 in Resources */,
+				4CD263891FD7AA9800097435 /* Assets.xcassets in Resources */,
+				4C145B051FB41986009E7581 /* narwhals.mp3 in Resources */,
 				579A4F8A1FB22E06003776E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,9 +291,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2XM8U9N36T;
 				INFOPLIST_FILE = JukeBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.uga.JukeBox;
+				PRODUCT_BUNDLE_IDENTIFIER = SONGP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -289,9 +306,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2XM8U9N36T;
 				INFOPLIST_FILE = JukeBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.uga.JukeBox;
+				PRODUCT_BUNDLE_IDENTIFIER = SONGP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,7 +319,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		579A4F7C1FB22E06003776E2 /* Build configuration list for PBXProject "JukeBox" */ = {
+		579A4F7C1FB22E06003776E2 /* Build configuration list for PBXProject "Jukebox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				579A4F911FB22E06003776E2 /* Debug */,
